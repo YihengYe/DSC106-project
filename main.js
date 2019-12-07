@@ -448,6 +448,11 @@ Highcharts.chart(chartDiv, {
                 style: {
                     color: 'rgba(255,255,255,0.75)'
                 }
+            },
+            states: {
+                inactive: {
+                    opacity: 1
+                }
             }
         }
     },
