@@ -50,6 +50,9 @@ Highcharts.ajax({
                         inactive: {
                             opacity: 1
                         }
+                    },
+                    label:{
+                        enabled: false
                     }
 
                 },
